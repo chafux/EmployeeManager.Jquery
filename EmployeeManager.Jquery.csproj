@@ -9,8 +9,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\EmployeeManager\" />
-  </ItemGroup>
-
 </Project>
