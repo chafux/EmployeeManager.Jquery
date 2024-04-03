@@ -36,6 +36,8 @@ namespace EmployeeManager.Jquery
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
