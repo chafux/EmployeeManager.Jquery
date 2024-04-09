@@ -61,6 +61,9 @@ namespace EmployeeManager.Jquery
 
             app.UseRouting();
 
+            app.UseAuthentication();
+            app.UseAuthorization();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
